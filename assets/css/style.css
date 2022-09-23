@@ -1,16 +1,36 @@
-:root{
---primary:#262b3c;
+:root {
+    --primary: #262b3c;
 }
 
-*{
-    margin: 0 auto;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+i {
+    cursor: pointer !important;
+}
+
+.font-size-15 {
+    font-size: 15px !important;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+}
+
+#page-content {
+    padding: calc(70px + 24px) calc(24px / 2) 60px calc(24px / 2);
+}
+
 /* Header start */
 
-#header{
+#header {
     position: fixed;
     top: 0;
     right: 0;
@@ -19,15 +39,161 @@
     background-color: #262b3c;
     box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-}
+
 
 .navbar-brand-box {
     background: #2a3042;
 }
 
+
+.breadcrumb-item>a {
+    color: #f6f6f6;
+}
+
+.breadcrumb-item.active {
+    color: #c3cbe4;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
 /* Header End  */
+
+/* Main Start  */
+
+.page-title-box {
+    padding-bottom: 24px;
+}
+
+.page-title-box h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px !important;
+}
+
+/* First Section */
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+
+.bg-primary.bg-soft {
+    background-color: rgba(85, 110, 230, .25) !important;
+}
+
+.profile-user-wid{
+    margin-top: -26px!important;
+}
+
+.avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-title {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+    font-weight: 600;
+}
+
+
+/* Rounde Chart */
+
+.apex-charts {
+    min-height: 10px!important;
+}
+
+/* Main End */
+
+
+/* Email Chart Start */
+.apexcharts-legend {
+    display: flex;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.apexcharts-legend.position-bottom,
+.apexcharts-legend.position-top {
+    flex-wrap: wrap
+}
+
+.apexcharts-legend.position-right,
+.apexcharts-legend.position-left {
+    flex-direction: column;
+    bottom: 0;
+}
+
+.apexcharts-legend.position-bottom.apexcharts-align-left,
+.apexcharts-legend.position-top.apexcharts-align-left,
+.apexcharts-legend.position-right,
+.apexcharts-legend.position-left {
+    justify-content: flex-start;
+}
+
+.apexcharts-legend.position-bottom.apexcharts-align-center,
+.apexcharts-legend.position-top.apexcharts-align-center {
+    justify-content: center;
+}
+
+.apexcharts-legend.position-bottom.apexcharts-align-right,
+.apexcharts-legend.position-top.apexcharts-align-right {
+    justify-content: flex-end;
+}
+
+.apexcharts-legend-series {
+    cursor: pointer;
+    line-height: normal;
+}
+
+.apexcharts-legend.position-bottom .apexcharts-legend-series,
+.apexcharts-legend.position-top .apexcharts-legend-series {
+    display: flex;
+    align-items: center;
+}
+
+.apexcharts-legend-text {
+    position: relative;
+    font-size: 14px;
+}
+
+.apexcharts-legend-text *,
+.apexcharts-legend-marker * {
+    pointer-events: none;
+}
+
+.apexcharts-legend-marker {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+}
+
+.apexcharts-legend.apexcharts-align-right .apexcharts-legend-series,
+.apexcharts-legend.apexcharts-align-left .apexcharts-legend-series {
+    display: inline-block;
+}
+
+.apexcharts-legend-series.apexcharts-no-click {
+    cursor: auto;
+}
+
+.apexcharts-legend .apexcharts-hidden-zero-series,
+.apexcharts-legend .apexcharts-hidden-null-series {
+    display: none !important;
+}
+
+.apexcharts-inactive-legend {
+    opacity: 0.45;
+}
+
+/* Email Chart End */
