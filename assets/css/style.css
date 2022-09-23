@@ -1,0 +1,33 @@
+:root{
+--primary:#262b3c;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header start */
+
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    background-color: #262b3c;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.navbar-brand-box {
+    background: #2a3042;
+}
+
+/* Header End  */

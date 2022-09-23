@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/sm-logo.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER Start -->
+    <header id="header">
+        <div class="nav">
+            <div class="nav_left d-flex">
+                <div class="navbar-brand-box">
+                    <a href="index.html" class="logo logo-dark">
+                        <span class="logo-sm">
+                            <img src="assets/img/sm-logo.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/img/logo-light.png" alt="" height="17">
+                        </span>
+                    </a>
+                </div>
+                <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect"
+                    id="vertical-menu-btn">
+                    <i class="bi bi-list"></i>
+                </button>
+                <form class="app-search d-none d-lg-block">
+                    <div class="position-relative">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <span class="bx bx-search-alt"></span>
+                    </div>
+                </form>
+                <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
+                    <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
+                        aria-haspopup="false" aria-expanded="false">
+                        <span key="t-megamenu">Mega Menu</span>
+                        <i class="mdi mdi-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-megamenu" style="">
+                        <div class="row">
+                            <div class="col-sm-8">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h5 class="font-size-14" key="t-ui-components">UI Components</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-rating">Rating</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-forms">Forms</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-tables">Tables</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-charts">Charts</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h5 class="font-size-14" key="t-applications">Applications</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-ecommerce">Ecommerce</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-calendar">Calendar</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-email">Email</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-projects">Projects</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-tasks">Tasks</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-contacts">Contacts</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <h5 class="font-size-14" key="t-extra-pages">Extra Pages</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-light-sidebar">Light Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-compact-sidebar">Compact
+                                                    Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-horizontal">Horizontal layout</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-maintenance">Maintenance</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-coming-soon">Coming Soon</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-timeline">Timeline</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-faqs">FAQs</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h5 class="font-size-14" key="t-ui-components">UI Components</h5>
+                                        <ul class="list-unstyled megamenu-list">
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-rating">Rating</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-forms">Forms</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-tables">Tables</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" key="t-charts">Charts</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-5">
+                                        <div>
+                                            <img src="assets/images/megamenu-img.png" alt=""
+                                                class="img-fluid mx-auto d-block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="nav_right d-flex"></div>
+        </div>
+    </header>
+    <!-- HEADER End -->
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/bootstrap-icons/bootstrap-icons.json"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
